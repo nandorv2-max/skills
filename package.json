@@ -1,0 +1,29 @@
+{
+  "name": "divstudio-skills",
+  "version": "1.0.0",
+  "description": "Skills de IA para geração de imagens e vídeos via DivStudio",
+  "keywords": ["divstudio", "skills", "ai", "image-generation", "tiktok-shop"],
+  "homepage": "https://divstudio.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divstudio-app/skills"
+  },
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "divstudio-generate",
+      "path": "./divstudio-generate",
+      "description": "Geração de imagem em todos os módulos do DivStudio"
+    },
+    {
+      "name": "divstudio-video",
+      "path": "./divstudio-video",
+      "description": "Geração de vídeo com Veo, Grok e Kling"
+    },
+    {
+      "name": "divstudio-produto",
+      "path": "./divstudio-produto",
+      "description": "Fotos profissionais de produto"
+    }
+  ]
+}
